@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<title>Stitch Design</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#38e07b",
+            "background-light": "#f6f8f7",
+            "background-dark": "#122017",
+          },
+          fontFamily: {
+            "display": ["Inter"]
+          },
+          borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm">
+<div class="flex items-center justify-between p-4">
+<button class="text-black dark:text-white">
+<span class="material-symbols-outlined">
+            menu
+          </span>
+</button>
+<h1 class="text-lg font-bold text-black dark:text-white">Portfolio</h1>
+<button class="text-black dark:text-white">
+<span class="material-symbols-outlined">
+            search
+          </span>
+</button>
+</div>
+</header>
+<main class="flex-1 overflow-y-auto pb-24">
+<div class="p-4">
+<h2 class="text-xl font-bold text-black dark:text-white mb-4">Your Holdings</h2>
+<div class="space-y-3">
+<div class="flex items-center gap-4 p-3 rounded-lg bg-white/5 dark:bg-white/5">
+<div class="w-12 h-12 rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD_lo14tLOTjsQK7Bi2QU3FrbD1_x2cdCQruhhFpEvYv4DeEt-Zy_6RnweFsLtq3K3-7d3tUrDdTbED346IZckFwyt7_Ee6B371ozoZFH7S2Ty6bNvkAzv1OkRr8QOY7mSLDwRCUHCZRmxf7DSynCujdLXDW90LvKf4KX2_2qrZA8cBNkFsLwUNT58K58k0vcrpt5-R0I4AjQLLN_SqHRP_vD8-5PI2JbYyCN5ZKM6tRaDyIdocACYnkwk6-ASKug0TJRCFYs01mSbz");'></div>
+<div class="flex-1">
+<p class="font-bold text-black dark:text-white">AAPL</p>
+<p class="text-sm text-black/60 dark:text-white/60">10 shares</p>
+</div>
+<div class="text-right">
+<p class="font-bold text-black dark:text-white">$1,750.30</p>
+<p class="text-sm text-primary">+5.20 (+0.30%)</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-3 rounded-lg bg-white/5 dark:bg-white/5">
+<div class="w-12 h-12 rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDiE48UdOjVsiXcahwp5yrJmTXFTHaLNiQE13nq2Db67lXjSpEg22vS85fhKcBX7W84w5bNZBoSuU7HFZWlvMYfLmZiy2cZaNsEXKOKhLuZYPzi0Soxj7Q32AU3Z5jnuLkG-3BCniC-nvdzvt12BklbmVxAXYzmhfchvAMI0GXxAwDC-YfIP5yMdS1vYiQMkATtf7b1qClQYKRRhcYkef2D_2IDaT2a3-oeuZHibiL4RKZIUZJvdbGcEMeIXeyZq0bPZ_u-LvAVJcBl");'></div>
+<div class="flex-1">
+<p class="font-bold text-black dark:text-white">MSFT</p>
+<p class="text-sm text-black/60 dark:text-white/60">5 shares</p>
+</div>
+<div class="text-right">
+<p class="font-bold text-black dark:text-white">$2,120.50</p>
+<p class="text-sm text-primary">+12.70 (+0.60%)</p>
+</div>
+</div>
+<div class="flex items-center gap-4 p-3 rounded-lg bg-white/5 dark:bg-white/5">
+<div class="w-12 h-12 rounded-lg bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC__g1OGui-vcx5tvAqlK-2zFBCf0DIJu4mCdcrU7Wfg0qh-G7AQGQqpjdRT0atDmrjH3VdeMgBOJ3rfdyfqr99r7fln1fMOW3tlh7MhTSOVHhFd--dmGWkqT0heqNSdJPBQGwWS6Thxg3xy8HnOJ7_Vjkj16rx5oml03xd3UZcJ9ablWFgNQD-65EgUQvdeJAz-_AMRlMmepemyQKwM_JDTJ7j8iRRJ_sUJnFIK6uN7kpKNTeuGnbOCDLfSWooltnzYn6qVV6tJhiF");'></div>
+<div class="flex-1">
+<p class="font-bold text-black dark:text-white">TSLA</p>
+<p class="text-sm text-black/60 dark:text-white/60">20 shares</p>
+</div>
+<div class="text-right">
+<p class="font-bold text-black dark:text-white">$3,500.00</p>
+<p class="text-sm text-red-500">-8.45 (-0.24%)</p>
+</div>
+</div>
+</div>
+</div>
+<div class="px-4 mt-6">
+<h2 class="text-xl font-bold text-black dark:text-white mb-4">News Impact</h2>
+<div class="space-y-4">
+<div class="rounded-xl overflow-hidden bg-background-light dark:bg-background-dark shadow-md border border-white/10 dark:border-white/10">
+<div class="h-32 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBUMA82t_iqVrUgGMNTw4JjG3Bs6n2HP0cF4WYl2kroruy9nuSO-cAeu9PrCWtpx3Jn5L1Ey3-yvDm7A_GOxBsvhgYjoWvomZa_3jR2DEiFSpoC7BrV4brjF76bWq9djrHf6yx9NQLDw-XR7yBIohwTalLV-lTFLDjCBrYMkyp0TKeI0Uzl0GIr95sJbXd6pDNe52uSsaY5s786l4szoZpvzYKFY5yLh9-Aa4m8XxGaus_FNXYTI9icF6RtucyibbRjL7lucgkmXOd3");'></div>
+<div class="p-4">
+<p class="text-xs text-black/60 dark:text-white/60 mb-1">Breaking News</p>
+<h3 class="font-bold text-black dark:text-white mb-2">New Product Launch Boosts Stock</h3>
+<p class="text-sm text-black/80 dark:text-white/80">AAPL shares jump 5% following the unveiling of the new Vision Pro headset.</p>
+</div>
+</div>
+<div class="rounded-xl overflow-hidden bg-background-light dark:bg-background-dark shadow-md border border-white/10 dark:border-white/10">
+<div class="h-32 bg-cover bg-center" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDPEl0bbUQTKK0gkZmMofUnEvYuHtJY14jHugqqEoREXsCfe1TBdRnupFs7jOeAbvoMjHHLQHMKVieN-hlGs44cLYh5shhzlJDpgoFPy1ezpPnaKxrh_HTg2fC_h6FmGmRoXrUGu691ngpjTI7DEbOBV1QPfJp1ngswQfTp36zTUKal6S9cJmHfiLoVj6g2WsmDnH52JLY0_eK7vTo4Yu6awlbyBfsdwto8coJWpVQhJh40XO8JUNsRAS1chWmSFCRNggpHz6N4k9CR");'></div>
+<div class="p-4">
+<p class="text-xs text-black/60 dark:text-white/60 mb-1">Market Update</p>
+<h3 class="font-bold text-black dark:text-white mb-2">Record Quarterly Earnings Announced</h3>
+<p class="text-sm text-black/80 dark:text-white/80">MSFT stock rises 3% after reporting strong cloud service growth.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="fixed bottom-0 left-0 right-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-t border-white/10 dark:border-white/10">
+<div class="flex justify-around items-center h-20">
+<a class="flex flex-col items-center gap-1 text-black/60 dark:text-white/60" href="#">
+<span class="material-symbols-outlined">chat_bubble</span>
+<span class="text-xs font-medium">Chatbot</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-black/60 dark:text-white/60" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-xs font-medium">Dashboard</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-black/60 dark:text-white/60" href="#">
+<span class="material-symbols-outlined">newspaper</span>
+<span class="text-xs font-medium">News</span>
+</a>
+<a class="flex flex-col items-center gap-1 text-primary" href="#">
+<div class="relative">
+<span class="material-symbols-outlined">business_center</span>
+<div class="w-2 h-2 rounded-full bg-primary absolute -top-0.5 -right-0.5"></div>
+</div>
+<span class="text-xs font-medium">Portfolio</span>
+</a>
+</div>
+</footer>
+</div>
+
+</body></html>

@@ -1,0 +1,11 @@
+symbol,name,sector,price,change,change_percent,volume,market_cap,pe_ratio,dividend_yield,high_52w,low_52w
+AAPL,Apple Inc.,Technology,175.43,2.15,1.24,45678912,2800000000000,28.5,0.5,198.23,164.08
+MSFT,Microsoft Corporation,Technology,378.85,-1.23,-0.32,23456789,2800000000000,32.1,0.7,420.15,309.45
+GOOGL,Alphabet Inc.,Technology,138.21,3.45,2.56,34567890,1750000000000,25.8,0.0,151.55,83.45
+AMZN,Amazon.com Inc.,Consumer Discretionary,144.73,1.89,1.32,45678901,1500000000000,45.2,0.0,175.39,118.35
+TSLA,Tesla Inc.,Consumer Discretionary,248.50,-5.67,-2.23,67890123,790000000000,65.4,0.0,299.29,138.80
+NVDA,NVIDIA Corporation,Technology,875.28,15.43,1.79,56789012,2150000000000,72.3,0.0,1080.00,108.13
+JPM,JPMorgan Chase & Co.,Financial Services,165.43,0.89,0.54,12345678,485000000000,11.2,2.3,176.25,123.11
+JNJ,Johnson & Johnson,Healthcare,165.23,-0.45,-0.27,9876543,400000000000,15.8,2.8,181.04,143.13
+V,Visa Inc.,Financial Services,275.89,2.34,0.85,8765432,550000000000,28.9,0.7,290.96,214.77
+WMT,Walmart Inc.,Consumer Staples,165.78,1.12,0.68,6543210,445000000000,25.4,1.4,181.35,117.27

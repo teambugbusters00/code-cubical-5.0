@@ -1,0 +1,121 @@
+{
+  "user_id": "demo_user_001",
+  "portfolio_name": "Tech Growth Portfolio",
+  "created_at": "2024-01-01T00:00:00Z",
+  "updated_at": "2024-01-15T10:00:00Z",
+  "total_value": 150000.0,
+  "total_invested": 140000.0,
+  "total_gain_loss": 10000.0,
+  "total_gain_loss_percent": 7.14,
+  "holdings": [
+    {
+      "symbol": "AAPL",
+      "company_name": "Apple Inc.",
+      "shares": 100,
+      "avg_cost": 150.0,
+      "current_price": 175.43,
+      "market_value": 17543.0,
+      "gain_loss": 2543.0,
+      "gain_loss_percent": 16.95,
+      "sector": "Technology",
+      "weight": 11.7
+    },
+    {
+      "symbol": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "shares": 50,
+      "avg_cost": 350.0,
+      "current_price": 378.85,
+      "market_value": 18942.5,
+      "gain_loss": 1442.5,
+      "gain_loss_percent": 8.24,
+      "sector": "Technology",
+      "weight": 12.6
+    },
+    {
+      "symbol": "GOOGL",
+      "company_name": "Alphabet Inc.",
+      "shares": 30,
+      "avg_cost": 120.0,
+      "current_price": 138.21,
+      "market_value": 4146.3,
+      "gain_loss": 546.3,
+      "gain_loss_percent": 15.18,
+      "sector": "Technology",
+      "weight": 2.8
+    },
+    {
+      "symbol": "TSLA",
+      "company_name": "Tesla Inc.",
+      "shares": 25,
+      "avg_cost": 220.0,
+      "current_price": 248.50,
+      "market_value": 6212.5,
+      "gain_loss": 712.5,
+      "gain_loss_percent": 12.95,
+      "sector": "Consumer Discretionary",
+      "weight": 4.1
+    },
+    {
+      "symbol": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "shares": 20,
+      "avg_cost": 800.0,
+      "current_price": 875.28,
+      "market_value": 17505.6,
+      "gain_loss": 1505.6,
+      "gain_loss_percent": 9.41,
+      "sector": "Technology",
+      "weight": 11.7
+    },
+    {
+      "symbol": "AMZN",
+      "company_name": "Amazon.com Inc.",
+      "shares": 40,
+      "avg_cost": 130.0,
+      "current_price": 144.73,
+      "market_value": 5789.2,
+      "gain_loss": 589.2,
+      "gain_loss_percent": 11.33,
+      "sector": "Consumer Discretionary",
+      "weight": 3.9
+    },
+    {
+      "symbol": "JPM",
+      "company_name": "JPMorgan Chase & Co.",
+      "shares": 60,
+      "avg_cost": 160.0,
+      "current_price": 165.43,
+      "market_value": 9925.8,
+      "gain_loss": 325.8,
+      "gain_loss_percent": 3.39,
+      "sector": "Financial Services",
+      "weight": 6.6
+    },
+    {
+      "symbol": "V",
+      "company_name": "Visa Inc.",
+      "shares": 35,
+      "avg_cost": 260.0,
+      "current_price": 275.89,
+      "market_value": 9656.15,
+      "gain_loss": 556.15,
+      "gain_loss_percent": 6.12,
+      "sector": "Financial Services",
+      "weight": 6.4
+    }
+  ],
+  "sector_allocation": {
+    "Technology": 40.8,
+    "Consumer Discretionary": 8.0,
+    "Financial Services": 13.0,
+    "Healthcare": 0.0,
+    "Consumer Staples": 0.0,
+    "Energy": 0.0,
+    "Materials": 0.0,
+    "Utilities": 0.0,
+    "Real Estate": 0.0,
+    "Communication Services": 0.0,
+    "Industrials": 0.0
+  }
+}
