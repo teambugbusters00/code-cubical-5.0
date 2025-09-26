@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Finance Scenario Simulator</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      text-align: center;
+      padding: 30px;
+    }
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
+    }
+    input[type=range] {
+      width: 80%;
+      margin: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h2>📊 Scenario Simulation Engine</h2>
+    <p>What happens if <b>Oil Prices</b> change?</p>
+    
+    <input type="range" id="oilSlider" min="-30" max="30" value="0" step="5">
+    <p>Oil Price Change: <span id="oilValue">0%</span></p>
+
+    <canvas id="portfolioChart" width="400" height="200"></canvas>
+  </div>
+
+  <script>
+    const ctx = document.getElementById('portfolioChart').getContext('2d');
+    let chart = new Chart(ctx, {
+      type: 'line',
+      data: {
+        labels: ['Current', 'Scenario'],
+        datasets: [{
+          label: 'Portfolio Value',
+          data: [100, 100],
+          borderColor: 'blue',
+          borderWidth: 2,
+          fill: false
+        }]
+      }
+    });
+
+    const slider = document.getElementById("oilSlider");
+    const oilValue = document.getElementById("oilValue");
+
+    slider.addEventListener("input", () => {
+      const change = parseInt(slider.value);
+      oilValue.innerText = change + "%";
+      
+      // Call backend to simulate
+      fetch(`/simulate?oil_change=${change}`)
+        .then(res => res.json())
+        .then(data => {
+          chart.data.datasets[0].data = [100, data.new_value];
+          chart.update();
+        });
+    });
+  </script>
+</body>
+</html>
